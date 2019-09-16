@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	height: 80px;
+	background: papayawhip;
+}
+
+main {
+	height: calc(50vh - 50px - 50px);
+}
+
+main div:first-child {
+	float: left;
+	height: 100%;
+	width: 55%;
+	background: lightgrey;
+}
+
+main div:last-child {
+	float: right;
+	height: 100%;
+	width: 45%;
+	background: palegoldenrod;
+}
+
+footer {
+	height: 80px;
+	background: brown;
+}
